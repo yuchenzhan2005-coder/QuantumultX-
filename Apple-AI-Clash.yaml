@@ -1,0 +1,24 @@
+# Apple Intelligence / Siri / Relay rules for Clash Verge / Mihomo
+# Source: https://raw.githubusercontent.com/RocM301/Apple-Rule/refs/heads/main/Apple-AI.list
+# Rule provider settings: behavior: classical; format: yaml
+# Reference with RULE-SET,apple_ai,<your proxy group> before broader Apple and MATCH rules.
+# This rule provider does not include proxy servers or a complete client configuration.
+payload:
+  - 'DOMAIN,guzzoni.apple.com'
+  - 'DOMAIN,mask-api.fe.apple-dns.net'
+  - 'DOMAIN,mask-api.icloud.com'
+  - 'DOMAIN,mask-t.apple-dns.net'
+  - 'DOMAIN,mask.apple-dns.net'
+  - 'DOMAIN-SUFFIX,smoot.apple.com'
+  - 'DOMAIN-SUFFIX,apple-relay.apple.com'
+  - 'DOMAIN-SUFFIX,apple-relay.cloudflare.com'
+  - 'DOMAIN-SUFFIX,apple-relay.fastly-edge.com'
+  - 'DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net'
+  - 'DOMAIN-SUFFIX,cp4.cloudflare.com'
+  - 'DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com'
+  - 'DOMAIN-SUFFIX,gateway.icloud.com'
+  - 'DOMAIN-SUFFIX,ls.apple.com'
+  - 'DOMAIN-SUFFIX,mask-h2.icloud.com'
+  - 'DOMAIN-SUFFIX,mask.icloud.com'
+  - 'DOMAIN-SUFFIX,apps.mzstatic.com'
+  - 'DOMAIN-KEYWORD,siri'
