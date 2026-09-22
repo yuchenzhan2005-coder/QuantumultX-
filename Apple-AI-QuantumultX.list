@@ -1,0 +1,21 @@
+# Apple Intelligence / Siri / Relay
+# Converted from https://raw.githubusercontent.com/RocM301/Apple-Rule/refs/heads/main/Apple-AI.list
+# Use force-policy in [filter_remote] to choose a supported-region proxy.
+host, guzzoni.apple.com, proxy
+host, mask-api.fe.apple-dns.net, proxy
+host, mask-api.icloud.com, proxy
+host, mask-t.apple-dns.net, proxy
+host, mask.apple-dns.net, proxy
+host-suffix, smoot.apple.com, proxy
+host-suffix, apple-relay.apple.com, proxy
+host-suffix, apple-relay.cloudflare.com, proxy
+host-suffix, apple-relay.fastly-edge.com, proxy
+host-suffix, apple-relay.mask.apple-dns.net, proxy
+host-suffix, cp4.cloudflare.com, proxy
+host-suffix, gspe1-ssl.ls.apple.com, proxy
+host-suffix, gateway.icloud.com, proxy
+host-suffix, ls.apple.com, proxy
+host-suffix, mask-h2.icloud.com, proxy
+host-suffix, mask.icloud.com, proxy
+host-suffix, apps.mzstatic.com, proxy
+host-keyword, siri, proxy
